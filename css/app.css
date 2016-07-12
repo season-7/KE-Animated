@@ -138,9 +138,9 @@ body{
 }
 .area{
   text-align:center;
-  font-size:6.5em;
+  font-size:4.5em;
   color:#fff;
-  letter-spacing: -7px;
+  letter-spacing: 0px;
   font-weight:700;
   text-transform:uppercase;
   animation:blur .75s ease-out infinite;
