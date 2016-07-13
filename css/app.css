@@ -169,12 +169,377 @@ body{
       0px -10px 100px #7B96B8,
       0px -10px 100px #7B96B8;}
 }
+.d {
+	background-color: #595959;
+}
+
+body {
+    background: #A7A9AC;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(.34, rgba(230,237,241,.05)),
+        color-stop(.67, rgba(230,237,241,0)));
+    -webkit-background-size: 5px 5px;
+}
+
+#pagegradient {
+  background-image:
+        -webkit-gradient(
+            radial, 
+            50% -50, 
+            300, 
+            50% 0, 
+            0, 
+            from(rgba(230, 237, 241, 0)), 
+            to(rgba(230, 237, 241, 0.8)));
+    
+  height:100%;
+  left:0px;
+  position:absolute;
+  top:0;
+  width: 600px;
+}
+
+.button {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgba(128,128,128,1); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+} 
+
+.button span {
+    background-color: #E8E8E8;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    
+    color: #3A474D;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 32px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+}
+
+       * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cold {
+  -webkit-transition: box-shadow 0.15s  ;
+  -moz-transition: box-shadow 0.15s  ;
+  -ms-transition: box-shadow 0.15s  ;
+  -o-transition: box-shadow 0.15s  ;
+  transition: box-shadow 0.15s  ;
+  border: 1px solid #b2afa5;
+  border-color: #e1e0dc #c9c8c1 #b2afa5;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.439);
+  background: -webkit-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: -moz-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: -ms-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: -o-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: linear-gradient(top, #f6f5f0, #e1e0dc);
+  -pie-background: linear-gradient(top, #f6f5f0, #e1e0dc);
+  color: #6b635b;
+  -webkit-box-shadow: rgba(255, 255, 255, 0) 0 0 1px 0, rgba(255, 255, 255, 0) 0 0 0 1px inset, white 0 1px 0 0;
+  -moz-box-shadow: rgba(255, 255, 255, 0) 0 0 1px 0, rgba(255, 255, 255, 0) 0 0 0 1px inset, white 0 1px 0 0;
+  -ms-box-shadow: rgba(255, 255, 255, 0) 0 0 1px 0, rgba(255, 255, 255, 0) 0 0 0 1px inset, white 0 1px 0 0;
+  -o-box-shadow: rgba(255, 255, 255, 0) 0 0 1px 0, rgba(255, 255, 255, 0) 0 0 0 1px inset, white 0 1px 0 0;
+  box-shadow: rgba(255, 255, 255, 0) 0 0 1px 0, rgba(255, 255, 255, 0) 0 0 0 1px inset, white 0 1px 0 0;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #6b635b;
+  padding: 30px 50px;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;    
+}
+
+
+.cold.disabled {
+  color: #bdbbb9;
+  border: 1px solid #d3d3d3;
+  cursor: auto;
+  text-shadow: white 0 1px 0;
+  -webkit-box-shadow: white 0 1px 0 0 inset;
+  -moz-box-shadow: white 0 1px 0 0 inset;
+  -ms-box-shadow: white 0 1px 0 0 inset;
+  -o-box-shadow: white 0 1px 0 0 inset;
+  box-shadow: white 0 1px 0 0 inset;
+}
+
+
+.in-progress {
+      text-shadow: none;
+  background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent), -webkit-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent), -moz-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent), -ms-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent), -o-linear-gradient(top, #f6f5f0, #e1e0dc);
+  background: linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent), linear-gradient(top, #f6f5f0, #e1e0dc);
+  -pie-background: linear-gradient(-45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent), linear-gradient(top, #f6f5f0, #e1e0dc);
+  background-repeat: repeat;
+  -webkit-background-size: 40px 40px, 100% 100%;
+  -moz-background-size: 40px 40px, 100% 100%;
+  -ms-background-size: 40px 40px, 100% 100%;
+  -o-background-size: 40px 40px, 100% 100%;
+  background-size: 40px 40px, 100% 100%;
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -moz-animation: progress-bar-stripes 2s linear infinite;
+  -ms-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  from { background-position: 0 0; }
+  to { background-position: 40px 0; }
+}
+
+@-moz-keyframes progress-bar-stripes {
+  from { background-position: 0 0; }
+  to { background-position: 40px 0; }
+}
+
+@keyframes progress-bar-stripes {
+  from { background-position: 0 0; }
+  to { background-position: 40px 0; }
+}
+
+.module {
+  background-image: url(../asssets/2.jpg);
+  width: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../asssets/2.jpg);
+  background-size: cover;
+  
+}
+
+..image-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+
+@import "compass/css3";
+
+// Sass Mixins
+
+// Animation Mixin
+
+@mixin animate($animation, $duration, $repeat, $easing) {
+  -webkit-animation: $animation $duration $repeat $easing;
+     -moz-animation: $animation $duration $repeat $easing;
+      -ms-animation: $animation $duration $repeat $easing;
+          animation: $animation $duration $repeat $easing;
+}
+
+
+// Keyframes Mixin
+// https://gist.github.com/ericam/1607696
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
+
+// Main Styles
 
 
 
+.bubble-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: rgba(255,255,255,0.5);
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #333;
+  
+  &:hover {
+    background: rgba(255,255,255,0.75);
+  }
+}
 
 
+// Bubble Styles
+
+.bubbles {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bubble-container {  
+  position: absolute;
+  bottom: 0;
+    will-change: transform;
+  
+  @include animate(bubblerise, 4s, infinite, ease-in);
+  @include opacity(0);
+}
+
+.bubble {  
+  width: 6px;
+  height: 6px;
+  margin: 0 auto;
+  border: 1px solid rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.25);
+    will-change: transform;
+    
+  @include border-radius(10px);
+  @include animate(bubblewobble, 0.4s, infinite, linear);
+}
 
 
+// Keyframe Animations
 
+@include keyframes(bubblerise) {
+  0% {    
+    bottom: 0;
+    
+    @include opacity(0);
+  }
+  5% {    
+    bottom: 0;
+    
+    @include opacity(1);
+  }
+  99% {
+    @include opacity(1);
+  }
+  100% {    
+    bottom: 100%;
+    
+    @include opacity(0);
+  }
+}
+
+
+@include keyframes(bubblewobble) {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 2px;
+  }
+}
 
